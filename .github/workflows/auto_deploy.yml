@@ -31,4 +31,4 @@ jobs:
       - name: installing surge
         run: npm install -g surge
       - name: deploy using surge
-        run: surge ./ bc2020sample.surge.sh --token ${{secrets.surge_token}}
+        run: surge ./ bc-2020sample0002.surge.sh --token ${{secrets.surge_token}}
